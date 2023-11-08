@@ -45,7 +45,7 @@ public class Main {
         for (Rideable transport : vehicles) {
             if (transport.getPosition() != person.getPosition())
                 person.walk(transport.getPosition());
-            transport.move(person);
+            transport.move(destination);
         }
         if (person.getPosition() != destination)
             person.walk(destination);

@@ -7,5 +7,5 @@ public interface Rideable extends Positioned{
     /**
      * Меняет местоположение человека
      */
-    void move(Person person);
+    void move(Position destination);
 }

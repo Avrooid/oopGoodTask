@@ -8,7 +8,7 @@ public class Car implements Rideable{
      * Перемещает человека
      */
     @Override
-    public void move(Person person) {
+    public void move(Position destination) {
 
     }
 
