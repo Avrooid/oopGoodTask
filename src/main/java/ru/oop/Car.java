@@ -1,7 +1,15 @@
 package ru.oop;
 
+/**
+ * Класс автомобиля
+ */
 public class Car {
-    public void move(Person person) {
+    private Person person;
+
+    public Car(Person person) {
+        this.person = person;
+    }
+    public void move(Position destination) {
 
     }
 }
